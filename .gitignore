@@ -1,0 +1,32 @@
+# Dependencias
+node_modules/
+
+# Certificados SSL
+cert/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Directorios de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Archivos de configuración local
+config.local.js
+
+# Archivos de build
+dist/
+build/
