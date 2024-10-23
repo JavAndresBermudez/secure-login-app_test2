@@ -43,7 +43,12 @@ node get-cert-hash.js
    - Copiar el hash generado
    - Pegar el hash en `public/index.html` en la constante `EXPECTED_CERT_HASH`
 
-5. Iniciar el servidor:
+5. Verificar entorno:
+```bash
+node scripts/check-environment.js
+```
+
+6. Iniciar el servidor:
 ```bash
 npm start
 ```
@@ -59,6 +64,7 @@ secure-login-app/
 │   └── index.html       # Interfaz de usuario
 ├── generate-cert.sh      # Script para generar certificados
 ├── get-cert-hash.js      # Script para obtener hash del certificado
+├── check-environment.js # Script para verificador el entorno
 ├── server.js            # Servidor Express
 ├── package.json         # Configuración del proyecto
 └── README.md           # Esta documentación
