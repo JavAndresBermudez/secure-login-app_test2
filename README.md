@@ -21,7 +21,7 @@ Esta aplicación implementa un sistema de login seguro utilizando SSL Pinning y 
 
 1. Clonar el repositorio:
 ```bash
-git clone https://github.com/tu-usuario/secure-login-app.git
+git clone https://github.com/JavAndresBermudez/secure-login-app.git
 cd secure-login-app
 ```
 
