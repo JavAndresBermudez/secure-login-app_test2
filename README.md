@@ -45,7 +45,7 @@ node get-cert-hash.js
 
 5. Verificar entorno:
 ```bash
-node scripts/check-environment.js
+node check-environment.js
 ```
 
 6. Iniciar el servidor:
